@@ -1,0 +1,89 @@
+{% load static%}
+
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+<h2>Reg Example</h2>
+
+<form method="POST" action="" enctype="multipart/form-data" ng-app="myApp"  ng-controller="validateCtrl"
+name="myForm" novalidate>
+
+{% csrf_token %} 
+</p>
+
+
+<p>Firstname:<br>
+  <input type="text" name="firstname" ng-model="firstname" required>
+  <span style="color:red" ng-show="myForm.firstname.$dirty && myForm.firstname.$invalid">
+  <span ng-show="myForm.firstname.$error.required">firstname is required.</span>
+  </span>
+</p>
+
+<p>Lastname:<br>
+    <input type="text" name="lastname" ng-model="lastname" required>
+    <span style="color:red" ng-show="myForm.lastname.$dirty && myForm.lastname.$invalid">
+    <span ng-show="myForm.lastname.$error.required">Lastname is required.</span>
+    </span>
+  </p>
+
+
+  <p>Mob:<br>
+    <input type="number" name="mob" ng-model="mob" required>
+    <span style="color:red" ng-show="myForm.mob.$dirty && myForm.mob.$invalid">
+    <span ng-show="myForm.mob.$error.required">Mob is required.</span>
+    </span>
+  </p>
+
+
+  <p>Username:<br>
+    <input type="text" name="username" ng-model="username" required>
+    <span style="color:red" ng-show="myForm.username.$dirty && myForm.username.$invalid">
+    <span ng-show="myForm.username.$error.required">Username is required.</span>
+    </span>
+  </p>
+  
+  
+
+<p>Email:<br>
+  <input type="email" name="email" ng-model="email" required>
+  <span style="color:red" ng-show="myForm.email.$dirty && myForm.email.$invalid">
+  <span ng-show="myForm.email.$error.required">Email is required.</span>
+  <span ng-show="myForm.email.$error.email">Invalid email address.</span>
+  </span>
+</p>
+
+
+<label>Password</label>
+        <input type="password" ng-model="password" name="password"  ng-pattern="/^(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*#?&])[A-Za-z\d$@$!%*#?&]{8,20}$/">
+        <div ng-messages="myForm.password.$error">
+          <br>
+          <div style="color:dodgerblue" ng-show="myForm.password.$error.required">Required!</div><br>
+          <div style="color:orange" ng-show="!myForm.password.$valid">Password should be at least 8 characters
+            long and should contain one number,one character and one special
+            character</div>
+          </div>
+          <div style="color: green" ng-show="myForm.password.$valid">Yas</div>
+
+          <p>
+            <input type="submit"
+            ng-disabled="myForm.username.$dirty && myForm.user.$invalid ||
+            myForm.email.$dirty && myForm.email.$invalid||myForm.email.$dirty && myForm.password.$invalid||
+            myForm.email.$dirty && myForm.firstname.$invalid
+            myForm.email.$dirty && myForm.lastname.$invalid||myForm.email.$dirty && myForm.mob.$invalid">
+          </p>
+</form>
+</body>
+<script>
+var app = angular.module('myApp', []);
+app.controller('validateCtrl', function($scope) {
+  $scope.username = 'usernames';
+  $scope.email = 'email.doe@gmail.com';
+  $scope.password=''
+
+});
+</script>
+
+</body>
+</html>

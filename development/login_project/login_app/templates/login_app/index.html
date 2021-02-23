@@ -1,0 +1,25 @@
+{% load static %}
+<html>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="{% static 'login_app/style.css' %}">
+<img src="{% static 'login_app/download.jpeg' %}"  height="300px" width="700px"/>  
+
+
+<body>
+    <form method="POST" enctype="multipart/form-data" action="">{% csrf_token %}
+        <h1>this file upload system</h1>
+        <strong>image</strong>
+        <input type="file" name=image><br><br>
+        <strong>Video_upload</strong>
+        <input type="file" name=video><br><br>
+
+        
+        <input type="submit" class="btn btn-primary" name="upload">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+/snap/firefox/277/bin/desktop-launch: line 174: /home/apptrinity10/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/apptrinity10/snap/firefox/common/.config/': Not a directory
+/snap/firefox/277/bin/desktop-launch: line 177: /home/apptrinity10/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/277/bin/desktop-launch: line 177: /home/apptrinity10/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1572512496133	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileh7cTAl"
+/snap/firefox/277/bin/desktop-launch: line 174: /home/apptrinity10/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/apptrinity10/snap/firefox/common/.config/': Not a directory
+/snap/firefox/277/bin/desktop-launch: line 177: /home/apptrinity10/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/277/bin/desktop-launch: line 177: /home/apptrinity10/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x87000F,name=PServiceWorkerManager::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+/snap/firefox/277/bin/desktop-launch: line 174: /home/apptrinity10/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/apptrinity10/snap/firefox/common/.config/': Not a directory
+/snap/firefox/277/bin/desktop-launch: line 177: /home/apptrinity10/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/277/bin/desktop-launch: line 177: /home/apptrinity10/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1572512512217	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegfptvg"
+/snap/firefox/277/bin/desktop-launch: line 174: /home/apptrinity10/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/apptrinity10/snap/firefox/common/.config/': Not a directory
+/snap/firefox/277/bin/desktop-launch: line 177: /home/apptrinity10/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/277/bin/desktop-launch: line 177: /home/apptrinity10/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+/snap/firefox/277/bin/desktop-launch: line 174: /home/apptrinity10/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/apptrinity10/snap/firefox/common/.config/': Not a directory
+/snap/firefox/277/bin/desktop-launch: line 177: /home/apptrinity10/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/277/bin/desktop-launch: line 177: /home/apptrinity10/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1572512775286	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiPuPe6"
+/snap/firefox/277/bin/desktop-launch: line 174: /home/apptrinity10/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/apptrinity10/snap/firefox/common/.config/': Not a directory
+/snap/firefox/277/bin/desktop-launch: line 177: /home/apptrinity10/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/277/bin/desktop-launch: line 177: /home/apptrinity10/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x87000F,name=PServiceWorkerManager::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+/snap/firefox/277/bin/desktop-launch: line 174: /home/apptrinity10/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/apptrinity10/snap/firefox/common/.config/': Not a directory
+/snap/firefox/277/bin/desktop-launch: line 177: /home/apptrinity10/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/277/bin/desktop-launch: line 177: /home/apptrinity10/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1572513115507	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5O8EwY"
+/snap/firefox/277/bin/desktop-launch: line 174: /home/apptrinity10/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/apptrinity10/snap/firefox/common/.config/': Not a directory
+/snap/firefox/277/bin/desktop-launch: line 177: /home/apptrinity10/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/277/bin/desktop-launch: line 177: /home/apptrinity10/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+/snap/firefox/277/bin/desktop-launch: line 174: /home/apptrinity10/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/apptrinity10/snap/firefox/common/.config/': Not a directory
+/snap/firefox/277/bin/desktop-launch: line 177: /home/apptrinity10/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/277/bin/desktop-launch: line 177: /home/apptrinity10/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1572513203410	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileO6RV3P"
+/snap/firefox/277/bin/desktop-launch: line 174: /home/apptrinity10/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/apptrinity10/snap/firefox/common/.config/': Not a directory
+/snap/firefox/277/bin/desktop-launch: line 177: /home/apptrinity10/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/277/bin/desktop-launch: line 177: /home/apptrinity10/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+
+(firefox:4967): Gtk-WARNING **: Theme parsing error: gtk-main.css:18:33: Invalid number for color value
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+/snap/firefox/277/bin/desktop-launch: line 174: /home/apptrinity10/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/apptrinity10/snap/firefox/common/.config/': Not a directory
+/snap/firefox/277/bin/desktop-launch: line 177: /home/apptrinity10/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/277/bin/desktop-launch: line 177: /home/apptrinity10/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1572513615065	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejD8Gr2"
+/snap/firefox/277/bin/desktop-launch: line 174: /home/apptrinity10/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/apptrinity10/snap/firefox/common/.config/': Not a directory
+/snap/firefox/277/bin/desktop-launch: line 177: /home/apptrinity10/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/277/bin/desktop-launch: line 177: /home/apptrinity10/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
